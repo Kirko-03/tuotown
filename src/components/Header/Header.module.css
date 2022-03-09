@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Jura;
+}
+.header{
+    color:white;
+    background: #212121;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.itemsBlock img{
+    height: 20px;
+}
+.itemsBlock div img:hover {
+    filter: invert(75%) sepia(96%) saturate(3010%) hue-rotate(351deg) brightness(116%) contrast(129%);
+}
+.itemsBlock div img:active {
+    filter: invert(65%)  contrast(129%);
+}
+.itemsBlock div{
+    font-family:Jura,sans-serif;
+    color: #FFFFFF;
+    margin-right:10px ;
+}
+.itemsBlock{
+    display: flex;
+    align-items: center;
+}
+.header div{
+    padding:5px;
+}
